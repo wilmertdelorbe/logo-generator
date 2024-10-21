@@ -37,6 +37,13 @@ To run the tests, use the following command:
 ```
 npm test
 ```
+A video demonstration of the application being tested and used can be found [here](https://youtu.be/zEd1Ev4_9Fs?si=wvWfWruNSBurV5GI).
+
+This video showcases:
+- Running the unit tests using `npm test`
+- Using the command-line interface to generate a logo
+- The resulting SVG file being created and displayed
+
 
 ## Project Structure
 
