@@ -1,4 +1,4 @@
-const { Cube, Pyramid, Disc } = require("./geometricFigures");
+const { Cube, Pyramid, Disc } = require("./geometric_figures");
 
 // Testing the Disc shape
 describe("Disc", () => {

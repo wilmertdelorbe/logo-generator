@@ -1,5 +1,5 @@
 const VectorGraphic = require("./vectorGraphic");
-const { Cube } = require("./geometricFigures");
+const { Cube } = require("./geometric_figures");
 
 test("should render a 300 x 200 svg element", () => {
   const expectedSvg =

@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const VectorGraphic = require("./vectorGraphic");
-const { Disc, Pyramid, Cube } = require("./geometricFigures");
+const { Disc, Pyramid, Cube } = require("./geometric_figures");
 const { writeFile } = require("fs/promises");
 
 class CommandLineInterface {
@@ -60,8 +60,8 @@ class CommandLineInterface {
         console.log("Generated logo.svg");
       })
       .catch((error) => {
-        console.log(error);
-        console.log("An error occurred while generating the logo.");
+        console.error("An error occurred while generating the logo:");
+        console.error(error);
       });
   }
 }
